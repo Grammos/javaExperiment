@@ -22,7 +22,7 @@ public class Nascar extends VeturaGaruese implements Gara, Runnable{
     @Override
     public void run() {
        Random r = new Random();
-       while( distanca < 500){
+       while( distanca < 5000){
            gara();
            
            try {

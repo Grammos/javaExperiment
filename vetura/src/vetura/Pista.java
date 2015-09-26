@@ -15,7 +15,7 @@ public class Pista {
     ArrayList<VeturaGaruese> veturat;
     
     public Pista(){
-        veturat = new ArrayList<>();     
+        veturat = new ArrayList<VeturaGaruese>();     
     }
     
     public void shtoVetura(VeturaGaruese v) throws GaraException{
